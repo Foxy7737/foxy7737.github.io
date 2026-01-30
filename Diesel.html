@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Coches.net</title>
+    <link rel="icon" href="Icono/tc.ico" type="image/z-icon">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="diesel">
+    <nav class="sticky">
+        <ul>
+            <li><a href="index.html"><img src="Imagenes/logo de inicio.png" class="imagen-logo"></a></li>
+            <li><a href="Diesel.html" class="contenedor-logo">Coches de Diesel</a></li>
+            <li><a href="Gasolina.html" class="contenedor-logo">Coches de Gasolina</a></li>
+            <li><a href="Usuario.html" class="contenedor-logo">Usuario</a></li>
+        </ul>
+    </nav>
+    <h1>Coches de Diesel:</h1>
+    <div style="text-align: center;">
+        <form>
+            <label for="cars">Elige el coches que quieres:</label>
+            <select id="cars" name="cars" onchange="mostrarCoched()">
+                <option value="">--Selecciona un Coche--</option>
+                <option value="citroen">Citroen</option>
+                <option value="Peugeot">Peugeot</option>
+                <option value="bmw">BMW</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="renault">Renault</option>
+                <option value="audi">Audi</option>
+            </select>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <!-- El botón -->
+    <button class="to-top-btn" type="button" aria-label="Volver al inicio de la página">↑</button>
+    <div class="grid-container" id="catalogo-grid-diesel">
+        <div class="container imagen-coche"
+            style="grid-area: c1;display: flex; justify-content: center; align-items: center;">
+            <a href="Coches/Diesel/Coche d1.html">
+                <img src="Coches/Diesel/Imagenes/Coche d1/Coche d1.jpg" class="d1-cambio">
+            </a>
+            <div class="center">Citroen C5 Aircross</div>
+        </div>
+        <div class="container imagen-coche"
+            style="grid-area: c2;display: flex; justify-content: center; align-items: center;">
+            <a href="Coches/Diesel/Coche d2.html">
+                <img src="Coches/Diesel/Imagenes/Coche d2/coche d2.jpg" class="d2-cambio">
+            </a>
+            <div class="center">Peugeot 2008</div>
+        </div>
+        <div class="container imagen-coche"
+            style="grid-area: c3;display: flex; justify-content: center; align-items: center;">
+            <a href="Coches/Diesel/Coche d3.html">
+                <img src="Coches/Diesel/Imagenes/Coche d3/coche d3.jpg" class="d3-cambio">
+            </a>
+            <div class="center">BMW Serie 1</div>
+        </div>
+        <div class="container imagen-coche"
+            style="grid-area: c4;display: flex; justify-content: center; align-items: center;">
+            <a href="Coches/Diesel/Coche d4.html">
+                <img src="Coches/Diesel/Imagenes/Coche d4/Coche d4.jpg" class="d4-cambio">
+            </a>
+            <div class="center">Volkswagen Passat</div>
+        </div>
+        <div class="container imagen-coche"
+            style="grid-area: c8;display: flex; justify-content: center; align-items: center;">
+            <a href="Coches/Diesel/Coche d5.html">
+                <img src="Coches/Diesel/Imagenes/Coche d5/Coche d5.jpg" class="d5-cambio">
+            </a>
+            <div class="center">Renault Mégane</div>
+        </div>
+        <div class="container imagen-coche"
+            style="grid-area: c9;display: flex; justify-content: center; align-items: center;">
+            <a href="Coches/Diesel/Coche d6.html">
+                <img src="Coches/Diesel/Imagenes/Coche d6/coche d6.jpg" class="d6-cambio">
+            </a>
+            <div class="center">Audi Q3</div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+
+</html>
