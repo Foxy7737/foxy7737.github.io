@@ -179,13 +179,13 @@ const coches = {
     },
     "Peugeot": {
         modelo: "Peugeot 2008",
-        imagen: "coches/Diesel/Imagenes/Coche d2/coche d2.jpg",
+        imagen: "coches/Diesel/Imagenes/Coche d2/Coche d2.jpg",
         enlace: "Coches/Diesel/Coche d2.html",
         claseImg: "d2-cambio"
     },
     "bmw": {
         modelo: "BMW Serie 1",
-        imagen: "coches/Diesel/Imagenes/Coche d3/coche d3.jpg",
+        imagen: "coches/Diesel/Imagenes/Coche d3/Coche d3.jpg",
         enlace: "Coches/Diesel/Coche d3.html",
         claseImg: "d3-cambio"
     },
@@ -203,7 +203,7 @@ const coches = {
     },
     "audi": {
         modelo: "Audi Q3",
-        imagen: "coches/Diesel/Imagenes/Coche d6/coche d6.jpg",
+        imagen: "coches/Diesel/Imagenes/Coche d6/Coche d6.jpg",
         enlace: "Coches/Diesel/Coche d6.html",
         claseImg: "d6-cambio"
     }
@@ -266,12 +266,12 @@ function mostrarGasolina() {
 
     // Datos de coches (usa tus rutas exactas)
     const coches = {
-        citroen: { modelo: "Citroen C3", imagen: "coches/Gasolina/Imagenes/Coche g1/coche g1.jpg", enlace: "Coches/Gasolina/Coche g1.html", clase: "g1-cambio" },
-        mercedes: { modelo: "Mercedes Clase CLA", imagen: "coches/Gasolina/Imagenes/Coche g2/coche g2.jpg", enlace: "Coches/Gasolina/Coche g2.html", clase: "g2-cambio" },
-        renault: { modelo: "Renault Twingo", imagen: "coches/Gasolina/Imagenes/Coche g3/coche g3.jpg", enlace: "Coches/Gasolina/Coche g3.html", clase: "g3-cambio" },
-        volkswagen: { modelo: "Volkswagen Polo", imagen: "coches/Gasolina/Imagenes/Coche g4/coche g4.jpg", enlace: "Coches/Gasolina/Coche g4.html", clase: "g4-cambio" },
-        smart: { modelo: "Smart Forfour", imagen: "coches/Gasolina/Imagenes/Coche g5/coche g5.jpg", enlace: "Coches/Gasolina/Coche g5.html", clase: "g5-cambio" },
-        bmw: { modelo: "BMW Serie 4", imagen: "coches/Gasolina/Imagenes/Coche g6/coche g6.jpg", enlace: "Coches/Gasolina/Coche g6.html", clase: "g6-cambio" }
+        citroen: { modelo: "Citroen C3", imagen: "coches/Gasolina/Imagenes/Coche g1/Coche g1.jpg", enlace: "Coches/Gasolina/Coche g1.html", clase: "g1-cambio" },
+        mercedes: { modelo: "Mercedes Clase CLA", imagen: "coches/Gasolina/Imagenes/Coche g2/Coche g2.jpg", enlace: "Coches/Gasolina/Coche g2.html", clase: "g2-cambio" },
+        renault: { modelo: "Renault Twingo", imagen: "coches/Gasolina/Imagenes/Coche g3/Coche g3.jpg", enlace: "Coches/Gasolina/Coche g3.html", clase: "g3-cambio" },
+        volkswagen: { modelo: "Volkswagen Polo", imagen: "coches/Gasolina/Imagenes/Coche g4/Coche g4.jpg", enlace: "Coches/Gasolina/Coche g4.html", clase: "g4-cambio" },
+        smart: { modelo: "Smart Forfour", imagen: "coches/Gasolina/Imagenes/Coche g5/Coche g5.jpg", enlace: "Coches/Gasolina/Coche g5.html", clase: "g5-cambio" },
+        bmw: { modelo: "BMW Serie 4", imagen: "coches/Gasolina/Imagenes/Coche g6/Coche g6.jpg", enlace: "Coches/Gasolina/Coche g6.html", clase: "g6-cambio" }
     };
 
     const info = coches[marca];
